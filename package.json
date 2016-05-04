@@ -1,0 +1,17 @@
+{
+  "name": "RemoteRetry",
+  "version": "1.0.0",
+  "main": "js/src/RemoteRetry",
+  "dependencies": {
+    "Retry": "aleclarson/Retry#3.0.0",
+    "Type": "aleclarson/Type#1.0.0",
+    "isReactNative": "aleclarson/isReactNative#1.0.0",
+    "network": "aleclarson/network#1.0.0",
+    "type-utils": "aleclarson/type-utils#1.0.0"
+  },
+  "lotus": {
+    "plugins": [
+      "lotus-coffee"
+    ]
+  }
+}
