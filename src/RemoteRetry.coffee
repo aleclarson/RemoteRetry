@@ -1,10 +1,9 @@
 
 require "isReactNative"
 
-{ assert } = require "type-utils"
-
 Network = require "network"
-Retry = require "Retry"
+assert = require "assert"
+Retry = require "retry"
 Type = require "Type"
 
 type = Type "RemoteRetry"
@@ -41,6 +40,6 @@ type.defineMethods
 
   _retry: ->
     return unless @_shouldRetry()
-    Reset::_retry.call this
+    Retry::_retry.call this
 
 module.exports = type.build()

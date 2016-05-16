@@ -2,11 +2,11 @@ var Network, Retry, Type, assert, type;
 
 require("isReactNative");
 
-assert = require("type-utils").assert;
-
 Network = require("network");
 
-Retry = require("Retry");
+assert = require("assert");
+
+Retry = require("retry");
 
 Type = require("Type");
 
@@ -47,7 +47,7 @@ type.defineMethods({
     if (!this._shouldRetry()) {
       return;
     }
-    return Reset.prototype._retry.call(this);
+    return Retry.prototype._retry.call(this);
   }
 });
 
