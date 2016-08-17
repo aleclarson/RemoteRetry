@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "js/src/RemoteRetry",
   "dependencies": {
-    "Type": "aleclarson/Type#1.0.0",
+    "Type": "aleclarson/Type#1.1.0",
     "assert": "aleclarson/assert#1.0.0",
     "isReactNative": "aleclarson/isReactNative#1.0.0",
     "network": "aleclarson/network#2.0.0",
