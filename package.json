@@ -10,11 +10,11 @@
     "postinstall": "postinstall-build js 'npm run build'"
   },
   "dependencies": {
+    "Retry": "aleclarson/Retry#3.0.0",
     "Type": "aleclarson/Type#1.1.0",
     "assert": "aleclarson/assert#1.0.0",
     "isReactNative": "aleclarson/isReactNative#1.0.0",
     "network": "aleclarson/network#2.0.0",
-    "retry": "aleclarson/retry#3.0.0",
     "postinstall-build": "0.2.x"
   },
   "devDependencies": {
